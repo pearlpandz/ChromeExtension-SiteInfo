@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Get Current Tab Info",
+    "description": "This extension will give current tab info, build for testing purpose",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
